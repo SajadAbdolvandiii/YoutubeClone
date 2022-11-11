@@ -18,8 +18,8 @@ const App = () => {
         autoClose={2500}
         position="top-right"
         closeButton={false}
-      />
-      {token ? <Router /> : <Auth />}
+      />{" "}
+      {token ? <Router /> : <Auth />}{" "}
     </ThemeProvider>
   );
 };
